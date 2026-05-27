@@ -1,5 +1,15 @@
 # @assistant-ui/react-native
 
+## 0.1.19
+
+### Patch Changes
+
+- [#4128](https://github.com/assistant-ui/assistant-ui/pull/4128) [`331f2f7`](https://github.com/assistant-ui/assistant-ui/commit/331f2f7f432285fd0cdc14e0862b550e5d15769e) - chore: update dependencies ([@Yonom](https://github.com/Yonom))
+
+- Updated dependencies [[`4429aa3`](https://github.com/assistant-ui/assistant-ui/commit/4429aa32f6bd4fd50a7a8ddbad1e19f6ccad192b), [`c4d3eea`](https://github.com/assistant-ui/assistant-ui/commit/c4d3eeac6907a2fc15718f3c710d73d24eaeb652)]:
+  - @assistant-ui/core@0.2.8
+  - assistant-stream@0.3.18
+
 ## 0.1.18
 
 ### Patch Changes

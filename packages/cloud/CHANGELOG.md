@@ -1,5 +1,14 @@
 # assistant-cloud
 
+## 0.1.30
+
+### Patch Changes
+
+- [#4128](https://github.com/assistant-ui/assistant-ui/pull/4128) [`331f2f7`](https://github.com/assistant-ui/assistant-ui/commit/331f2f7f432285fd0cdc14e0862b550e5d15769e) - chore: update dependencies ([@Yonom](https://github.com/Yonom))
+
+- Updated dependencies [[`c4d3eea`](https://github.com/assistant-ui/assistant-ui/commit/c4d3eeac6907a2fc15718f3c710d73d24eaeb652)]:
+  - assistant-stream@0.3.18
+
 ## 0.1.29
 
 ### Patch Changes

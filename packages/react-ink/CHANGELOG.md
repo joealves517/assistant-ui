@@ -1,5 +1,15 @@
 # @assistant-ui/react-ink
 
+## 0.0.21
+
+### Patch Changes
+
+- [#3852](https://github.com/assistant-ui/assistant-ui/pull/3852) [`356d8a0`](https://github.com/assistant-ui/assistant-ui/commit/356d8a0f9e6c20dfbe1cb6f755e0044520c60ca4) - add a `useNotification` hook plus `ringBell` / `sendOSCNotification` helpers to `@assistant-ui/react-ink`. the hook rings the terminal bell and emits an OSC desktop notification when the assistant finishes a run, stops with an error, or pauses for human approval (`requires-action` with `reason: "interrupt"` only; tool-call pauses are skipped). pass `useNotification()` for the default bell-on-every-transition behavior, `useNotification({ onTaskComplete: false })` to suppress one trigger, or `useNotification({ onTaskComplete: { custom: (event) => ... } })` for a user-supplied callback. transitions are derived from `useAuiState` so deprecated `thread.runStart` / `thread.runEnd` events are not relied on. `ringBell` and `sendOSCNotification` are also exported for imperative use. ([@ShobhitPatra](https://github.com/ShobhitPatra))
+
+- Updated dependencies [[`4429aa3`](https://github.com/assistant-ui/assistant-ui/commit/4429aa32f6bd4fd50a7a8ddbad1e19f6ccad192b), [`c4d3eea`](https://github.com/assistant-ui/assistant-ui/commit/c4d3eeac6907a2fc15718f3c710d73d24eaeb652)]:
+  - @assistant-ui/core@0.2.8
+  - assistant-stream@0.3.18
+
 ## 0.0.20
 
 ### Patch Changes
